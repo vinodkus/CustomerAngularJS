@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@* declare ng-controller *@
+<div class="row" ng-controller="HomeController">
+    <div class="col-sm-12">
+        @* bind data to view *@
+        {{Message}}
+    </div>
+</div>
+@*<script src="~/Scripts/MyApp.js"></script>*@
+
+@section scripts{
+    <script src="~/Scripts/MyApp.js"></script>
+}
