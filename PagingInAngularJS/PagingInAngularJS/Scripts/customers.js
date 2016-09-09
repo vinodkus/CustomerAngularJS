@@ -13,7 +13,7 @@
 //           })
 //})
 
-
+//new changes 9 sep
 var app = angular.module('MyApp', ['mgcrea.ngStrap','angularUtils.directives.dirPagination']);
 app.controller('CustomerController', function ($scope, CustomerService) {
     //    debugger;
