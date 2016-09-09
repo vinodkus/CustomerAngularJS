@@ -14,6 +14,7 @@
 //})
 
 //new changes 9 sep
+//new chanet 9 sep -1
 var app = angular.module('MyApp', ['mgcrea.ngStrap','angularUtils.directives.dirPagination']);
 app.controller('CustomerController', function ($scope, CustomerService) {
     //    debugger;
